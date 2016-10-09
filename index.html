@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>TF相册</title>
+		<link rel="stylesheet" href='lib/semantic/css/semantic.css'>
+		<link rel="stylesheet" href="lib/swiper/swipe-min.css">
+		<link rel="stylesheet" href="css/swiper/swipe.css">
+		<script type="text/javascript" src="lib/jquery/jquery-1.8.2.min.js"></script>
+		<script type="text/javascript" src='lib/angular/angular-1.4.0.min.js'></script>
+		<script type='text/javascript' src='lib/angular/angular-cookies-1.4.0.min.js'></script>
+		<script type='text/javascript' src='lib/angular/angular-ui-router.min.js'></script>
+		<script type="text/javascript" src='lib/swiper/swipe.js'></script>
+		<!--
+    		作者：13540361424@163.com 时间：2016-05-05 描述：myApp初始化、全局配置文件
+	    -->
+		<script type='text/javascript' src="controller/base/app.js"></script>
+		
+	</head>
+
+	<body ng-app='myApp'>
+		<div ui-view="main"></div>
+	</body>
+	<!--
+    	作者：13540361424@163.com
+    	时间：2016-05-05
+    	描述：swipe图片轮播
+    -->
+	<script type='text/javascript' src='controller/base/swipeController.js'></script>
+	<!--
+		作者：13540361424@163.com
+		时间：2016-05-03
+		描述：路由机制
+	-->
+	<script type='text/javascript' src='controller/service/routConfig/routingConfig.js'></script>
+	<!--
+		作者：13540361424@163.com
+		时间：2016-05-03
+		描述：登录页面
+	-->
+	<script type="text/javascript" src="controller/base/login.js"></script>
+
+</html>
